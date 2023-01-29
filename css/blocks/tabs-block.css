@@ -1,0 +1,83 @@
+.tabs-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs-block > h2 {
+  width: 100%;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.tabs-block__tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab {
+  width: 368px;
+  padding: 32px 40px 45px 40px;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--color-light-blue);
+  cursor: pointer;
+  user-select: none;
+  transition: box-shadow var(--transition-base),
+    background var(--transition-base);
+}
+
+.tab span {
+  display: block;
+  margin-bottom: 27px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  transition: color var(--transition-base);
+}
+
+.tab svg {
+  transition: fill var(--transition-base);
+
+  fill: var(--color-light-blue);
+}
+
+.tab:hover {
+  box-shadow: inset 0 0 0 2px var(--color-blue);
+}
+
+.tab:hover svg {
+  transition: fill var(--transition-base);
+  fill: var(--color-blue);
+}
+
+.tab.active {
+  background: url('../../img/link-checked.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: none;
+}
+
+.tab.active span {
+  color: var(--color-text-white);
+}
+
+.tab.active svg {
+  fill: var(--color-text-white);
+}
+
+.pickup-block,
+.delivery-block {
+  display: none;
+}
+
+.tabs-block[data-active-tab='pickup'] .pickup-block,
+.tabs-block[data-active-tab='delivery'] .delivery-block {
+  display: block;
+}

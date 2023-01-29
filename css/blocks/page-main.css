@@ -1,0 +1,9 @@
+.page-main {
+  flex-shrink: 0;
+  width: 920px;
+  padding: 64px 76px 80px 76px;
+
+  background-color: var(--color-bg-white);
+  border-radius: 4px;
+  box-shadow: 0 4px 22px rgba(68, 68, 68, 0.1);
+}

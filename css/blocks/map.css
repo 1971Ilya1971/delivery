@@ -1,0 +1,8 @@
+.map {
+  width: 768px;
+  height: 400px;
+  background-color: var(--color-bg-main);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

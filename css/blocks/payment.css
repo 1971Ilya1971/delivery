@@ -1,0 +1,3 @@
+#payment-cash:checked ~ .input-wrapper--card {
+  display: none;
+}

@@ -1,0 +1,37 @@
+:root {
+  --font-family:                "Montserrat", "Arial", sans-serif;
+
+  --color-white:                #ffffff;
+  --color-blue:                 #67a0f6;
+  --color-light-blue:           #b5d1ff;
+  --color-deep-blue:            #397de1;
+  --color-red:                  #ff9081;
+  --color-green:                #48ca55;
+  --color-transparent:          rgba(0, 0, 0, 0);
+
+  --color-bg-main:              #f6f8fb;
+  --color-bg-white:             #ffffff;
+
+  --color-text-white:           #ffffff;
+  --color-text-main:            #444444;
+  --color-text-grey:            #aaaaaa;
+  --color-text-red:             #ff9081;
+
+  --color-radio-base:           #f2f2f2;
+  --color-radio-checked:        #67a0f6;
+  --color-radio-hover:          #dfecff;
+  --color-radio-checked-hover:  #397de1;
+
+  --color-input-border-base:    #e2e2e2;
+  --color-input-border-hover:   #b5d1ff;
+  --color-input-border-focus:   #397de1;
+  --color-input-border-success: #48ca55;
+  --color-input-border-error:   #ff9081;
+
+  --color-btn-base:             #67a0f6;
+  --color-btn-hover:            #397de1;
+  --color-btn-active:           #b5d1ff;
+  --color-btn-disabled:         #e2e2e2;
+
+  --transition-base:            0.15s ease-in-out;
+}

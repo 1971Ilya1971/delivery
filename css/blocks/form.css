@@ -1,0 +1,88 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h3 {
+  margin-top: 64px;
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.form__info {
+  max-width: 484px;
+  margin-top: -12px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text-grey);
+}
+
+.form__submit-block {
+  display: flex;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.form__submit-btn {
+  position: relative;
+
+  display: inline-block;
+  flex-shrink: 0;
+  width: auto;
+  margin: 0;
+  padding: 15px 32px;
+  overflow: hidden;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-text-white);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  background: var(--color-btn-base);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+
+  transition: background var(--transition-base);
+
+  user-select: none;
+
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+.form__submit-btn:hover,
+.form__submit-btn:focus {
+  background: var(--color-btn-hover);
+}
+
+.form__submit-btn:active {
+  background: var(--color-btn-active);
+}
+
+.form__submit-btn:disabled {
+  background: var(--color-btn-disabled);
+  cursor: auto;
+}
+
+.form__submit-state {
+  margin-left: 36px;
+}
+
+.form__submit-help {
+  margin-top: 5px;
+}
+
+.form__submit-help span {
+  font-weight: 700;
+  color: var(--color-text-red);
+}
